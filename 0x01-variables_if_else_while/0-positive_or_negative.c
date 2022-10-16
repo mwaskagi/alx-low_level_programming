@@ -3,10 +3,11 @@
 #include <time.h>
 /* more headers goes there */
 
-/* betty style doc for function main ges there */
+/**
+ * main function - return if positeve, negative or zero
+ */
 int main(void)
 {
-	/* main function  */
 	int n;
 
 	srand(time(0));
