@@ -9,14 +9,11 @@
 
 int main()
 {
-	char a[] = "ABCDEFGHIJKL";
-	char b[] = "MNOPQRSTUVWXYZ";
-	char result;
-
-	result = tolower(a[13]);
-	putchar(result);
-
-	result = tolower(b[13]);
-	putchar(result);
+	int ch;
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		putchar(ch);
+	}
+	putchar('\n');
 	return (0);
 }
