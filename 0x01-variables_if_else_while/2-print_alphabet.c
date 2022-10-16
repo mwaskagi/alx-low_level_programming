@@ -7,7 +7,7 @@
  * Return: 0
  */
 
-int main()
+int main(void)
 {
 	int ch;
 	for (ch = 'a'; ch <= 'z'; ch++)
