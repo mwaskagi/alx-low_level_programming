@@ -1,10 +1,7 @@
 #include <stdio.h>
 
-/* Print Alphabets */
-
 /**
- * main convert charters to lower case using 
- * putchar
+ * main = use putchar to list alphabet to lowercase
  * Return: 0
  */
 
