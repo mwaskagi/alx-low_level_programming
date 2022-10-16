@@ -10,7 +10,7 @@
  * prints zero
  * chcks n if the number is negative
  * prints negative
- * Return 0
+ * Return: 0
  */
 int main(void)
 {
