@@ -4,7 +4,13 @@
 /* more headers goes there */
 
 /**
- * main function - return if positeve, negative or zero
+ * main - Gets n then checks if the number is greater than 0
+ * prints positive
+ * checks n if the number is equal to zero
+ * prints zero
+ * chcks n if the number is negative
+ * prints negative
+ * then returns zero
  */
 int main(void)
 {
