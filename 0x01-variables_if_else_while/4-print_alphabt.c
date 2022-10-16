@@ -2,7 +2,7 @@
 
 /**
  * main - print alphabet expect q and e
- * descritpion: will use putchar to list the alphabet without q and e in lowercase
+ * descritpion: list the alphabet without q and e in lowercase
  * Return: 0
  */
 
