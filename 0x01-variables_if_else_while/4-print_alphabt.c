@@ -2,14 +2,14 @@
 
 /**
  * main - print alphabet expect q and e
- * descritpion: will use putchar to list the 
- * alphabet without q and e in lowercase
+ * descritpion: will use putchar to list the alphabet without q and e in lowercase
  * Return: 0
  */
 
 int main(void)
 {
 	int ch;
+
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 
