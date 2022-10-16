@@ -9,13 +9,14 @@
 
 int main()
 {
-	char c, result;
-	c = 'A';
-	result = tolower(c);
+	char a[] = "ABCDEFGHIJKL";
+	char b[] = "MNOPQRSTUVWXYZ";
+	char result;
+
+	result = tolower(a[13]);
 	putchar(result);
 
-	c = 'B';
-	result = tolower(c);
+	result = tolower(b[13]);
 	putchar(result);
 	return (0);
 }
