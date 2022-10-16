@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main: use putchar to list alphabet to lowercase
+ * main - use putchar to list alphabet to lowercase
+ * description: print aplhabet to lower
  * Return: 0
  */
 
