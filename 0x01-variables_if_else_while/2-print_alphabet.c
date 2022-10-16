@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
+/* Print Alphabets */
 
 /**
  * main convert charters to lower case using 
