@@ -2,8 +2,8 @@
 
 /**
  * _isaplha - get the char
- * Description: 
- * @c: the letter
+ * Description: the
+ * @c: ttie letter
  * Return: 1 if letter
  */
 
