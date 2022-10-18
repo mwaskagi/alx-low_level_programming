@@ -2,7 +2,7 @@
 
 /**
  * _abs - main
- * @n number
+ * @n: number
  * Description: absolute
  * Return: n or -n
  */
