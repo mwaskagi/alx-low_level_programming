@@ -2,6 +2,7 @@
 /**
  * times_table function
  * Description: multiplacation
+ *
  * Return: void
  */
 
