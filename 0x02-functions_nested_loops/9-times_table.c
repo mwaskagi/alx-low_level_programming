@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * times_table function
+ * times_table - function
  * description: multiplacation
  *
  * Return: void
