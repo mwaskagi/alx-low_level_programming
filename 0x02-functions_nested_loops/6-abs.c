@@ -4,7 +4,7 @@
  * _abs - main
  * @n integer
  * Description: tes
- * Return: 
+ * Return: n or -n 
  */
 
 int _abs(int n)
