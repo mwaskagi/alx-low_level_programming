@@ -7,17 +7,16 @@
  * Return: 0
  */
 
-int print_alphabet()
+void  print_alphabet(void)
 {
-	int ch, alpha;
+	int ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		alpha = putchar(ch);
+		putchar(ch);
 	}
 
-	alpha = putchar('\n');
-	return (alpha);
+	putchar('\n');
 }
 
 int main(void)
