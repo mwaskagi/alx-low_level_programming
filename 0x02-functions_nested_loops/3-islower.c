@@ -3,7 +3,7 @@
 /**
  * _islower - check is char
  *
- * Return: 1 if true else 0 
+ * Return: 1
  */
 
 int _islower(int c)
