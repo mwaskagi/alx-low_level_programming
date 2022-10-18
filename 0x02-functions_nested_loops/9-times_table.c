@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * times_table function
- * Descritpion: multiplacation
+ * Description: multiplacation
  * Return: void
  */
 
