@@ -2,7 +2,7 @@
 
 /**
  * _islower - check is char
- *
+ * @c: the letter
  * Return: 1
  */
 
