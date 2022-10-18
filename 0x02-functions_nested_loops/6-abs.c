@@ -3,7 +3,7 @@
 /**
  * _abs - main
  * @n number
- * Return: n or -n 
+ * Return: n or -n
  */
 
 int _abs(int n)
