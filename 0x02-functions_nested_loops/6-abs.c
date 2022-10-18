@@ -3,6 +3,7 @@
 /**
  * _abs - main
  * @n number
+ * Description: absolute
  * Return: n or -n
  */
 
