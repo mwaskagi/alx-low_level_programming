@@ -1,27 +1,13 @@
 #include "main.h"
 
-/**
- * main - calphabet
- *
- * Return: 0
- */
-
-void print_alphabet();
-
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
-}
-
-void print_alphabet()
-{
-	int ch;
+	char ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(ch);
+		_putchar(ch);
 	}
 
-	putchar('\n');
+	_putchar('\n');
 }
