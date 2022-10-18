@@ -3,6 +3,7 @@
 /**
  * print_sign - print sign
  * Description: print sign
+ * @n: the value
  * Return: 1, 0 ,-1
  */
 
