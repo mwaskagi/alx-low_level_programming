@@ -2,8 +2,7 @@
 
 /**
  * _islower - check is charcter is lowe
- *
- * Return: 1 if true else 0 
+ *Return: 1 if true else 0 
  */
 
 int _islower(int c)
