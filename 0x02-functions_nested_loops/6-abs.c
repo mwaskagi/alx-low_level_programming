@@ -2,8 +2,7 @@
 
 /**
  * _abs - main
- * @n integer
- * Description: tes
+ * @n number
  * Return: n or -n 
  */
 
