@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isaplha - get the char
+ * _isalpha - get the char
  * Description: the
  * @c: ttie letter
  * Return: 1 if letter
