@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * print_alphabet - print the alpha in small letter
+ *
+ * Return: void
+ */
+
 void print_alphabet(void)
 {
 	char ch;
