@@ -4,7 +4,7 @@
 
 /**
  * Main - Print putchar
- *
+ * Description: printing putchar
  * Return: 0
  */
 
