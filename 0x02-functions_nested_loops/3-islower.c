@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * _islower - check is charcter is lowe
- *Return: 1 if true else 0 
+ * _islower - check is char
+ *
+ * Return: 1 if true else 0 
  */
 
 int _islower(int c)
