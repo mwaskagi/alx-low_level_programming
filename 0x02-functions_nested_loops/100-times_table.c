@@ -42,6 +42,7 @@ void print_times_table(int n)
 	}
 	else
 	{
-		return;
+		_putchar('0');
+		_putchar('\n');
 	}
 }
