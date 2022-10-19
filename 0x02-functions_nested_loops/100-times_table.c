@@ -13,6 +13,8 @@ void print_times_table(int n)
 	{
 		for (first = 0; first <= n; first++)
 		{
+			_putchar('0');
+
 			for (last = 1; last <= n; last++)
 			{
 				ret = first * last;
