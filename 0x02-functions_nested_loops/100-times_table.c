@@ -21,10 +21,14 @@ void print_times_table(int n)
 				_putchar(' ');
 				ret = first * last;
 				if (ret <= 9)
+				{
 					_putchar(' ');
+				}
 				else
+				{
 					_putchar(' ');
 					_putchar((ret / 10) + '0');
+				}
 				_putchar((ret % 10) + '0');
 			}
 			_putchar('\n');
