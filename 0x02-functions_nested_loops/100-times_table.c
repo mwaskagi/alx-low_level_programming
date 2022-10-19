@@ -19,6 +19,7 @@ void print_times_table(int n)
 			{
 				_putchar(',');
 				_putchar(' ');
+				_putchar(' ');
 				ret = first * last;
 				if (ret <= 9)
 				{
@@ -31,7 +32,6 @@ void print_times_table(int n)
 				}
 				_putchar((ret % 10) + '0');
 			}
-			_putchar(' ');
 			_putchar(' ');
 			_putchar('\n');
 		}
