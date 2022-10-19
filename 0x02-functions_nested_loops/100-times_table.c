@@ -42,7 +42,6 @@ void print_times_table(int n)
 	}
 	else if (n < 0 || n > 99)
 	{
-		_putchar(' ');
 	}
 	else
 	{
