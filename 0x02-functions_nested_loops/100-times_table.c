@@ -40,6 +40,10 @@ void print_times_table(int n)
 			_putchar('\n');
 		}
 	}
+	else if(n < 0 && > 99)
+	{
+		_putchar(' ');
+	}
 	else
 	{
 		_putchar('0');
