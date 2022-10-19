@@ -2,7 +2,7 @@
 /**
  * print_times_table - main function
  * @n: the integer
- * Return: void
+ * Return: Always 0
  */
 
 void print_times_table(int n)
