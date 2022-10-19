@@ -10,11 +10,14 @@ void times_table(void)
 {
 	int n, m, p;
 
-	for (n = 0; n <= 9; n++)
+	n = 0;
+
+	while (n <= 9)
 	{
+		m = 1;
 		_putchar('0');
 
-		for (m = 1; m <= 9; m++)
+		while (m <= 9)
 		{
 			_putchar(',');
 			_putchar(' ');
@@ -27,7 +30,9 @@ void times_table(void)
 				_putchar((p / 10) + '0');
 
 			_putchar((p % 10) + '0');
+			m++;
 		}
 		_putchar('\n');
+		n++;
 	}
 }
