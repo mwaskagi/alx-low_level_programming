@@ -20,12 +20,11 @@ void print_times_table(int n)
 				_putchar(' ');
 				ret = first * last;
 
-				if (ret <= 9 || ret > 99)
-				{
+				if (ret <= 9)
 					_putchar(' ');
-					_putchar(' ');
-				}
-				
+				if(ret > 99)
+					_puthchar(' ');
+
 				if (ret > 9 && ret < 100)
 				{
 					_putchar((ret / 10) + '0');
