@@ -2,6 +2,7 @@
 
 /**
  * _isupper : checkes if charcter is in upper
+ * @c: get the int
  * Return: 1 if true and 0 if false
  */
 
