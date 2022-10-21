@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - print buzz function
+ * main - provides a function that will print buzz
+ * if the number is a module of 3 and
+ * fiz buz if the number is module of 3 and 5
  * Return: 0
  */
 
