@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * main - provides a function that will print buzz
  * if the number is a module of 3 and
