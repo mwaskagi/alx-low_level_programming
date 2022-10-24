@@ -10,15 +10,22 @@ void print_triangle(int n)
 {
 	int x, y;
 
-	for (x = 1; x <= n; x++)
+	if (n > 0)
 	{
-		for (y = 1; y <= n; y++)
+		for (x = 1; x <= n; x++)
 		{
-			if (y <= n - x)
-				_putchar(' ');
-			else
-				_putchar(35);
+			for (y = 1; y <= n; y++)
+			{
+				if (y <= n - x)
+					_putchar(' ');
+				else
+					_putchar(35);
+			}
+			_putchar('\n');
 		}
+	}
+	else
+	{
 		_putchar('\n');
 	}
 }
