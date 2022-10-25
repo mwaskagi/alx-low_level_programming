@@ -19,7 +19,7 @@ void print_rev(char *s)
 	checker = 0;
 	while (checker == count)
 	{
-		_putchar(s[counter]);
+		_putchar(s[count]);
 		count--;
 	}
 	_putchar('\n');
