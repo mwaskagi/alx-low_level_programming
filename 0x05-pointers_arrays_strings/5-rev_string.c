@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-void rev_string(char * s)
+void rev_string(char *s)
 {
 	int a, b, c;
 
@@ -16,7 +16,6 @@ void rev_string(char * s)
 
 	a--;
 	b = 0;
-
 	while (a > b)
 	{
 		c = s[a];
