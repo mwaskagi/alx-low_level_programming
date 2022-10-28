@@ -11,11 +11,11 @@ char *_strcat(char *dest, char *src)
 {
 	int a = 0, b = 0, c = 0;
 
-	while (dest[a] != '\n')
+	while (dest[a] != '\0')
 	{
 		a++;
 	}
-	while (src[b] != '\n')
+	while (src[b] != '\0')
 	{
 		b++;
 	}
