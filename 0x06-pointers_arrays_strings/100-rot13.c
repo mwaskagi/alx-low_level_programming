@@ -18,7 +18,7 @@ char *rot13(char *str)
 		b = 0;
 		while (b <= 51)
 		{
-			if (s[b] == str[a])
+			if (c[b] == str[a])
 				str[a] = c1[b];
 			b++;
 		}
