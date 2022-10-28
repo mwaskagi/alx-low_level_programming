@@ -13,7 +13,7 @@ char *rot13(char *str)
 	char c[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 	char c1[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijkl";
 
-	while (str[a] != '\n')
+	while (str[a] != '\0')
 	{
 		b = 0;
 		while (b <= 51)
