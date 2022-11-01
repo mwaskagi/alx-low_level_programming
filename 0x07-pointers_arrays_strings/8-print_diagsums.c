@@ -19,7 +19,9 @@ void print_diagsums(int *a, int size)
 		for (c = 0; c < size; c++)
 		{
 			if (b == c)
-				d = d + a[(size + 1) * a];
+			{
+				d = d + a[(size + 1) * b];
+			}
 			if (b + c == size - 1)
 				e = e + a[(size - 1) * (b + 1)];
 		}
