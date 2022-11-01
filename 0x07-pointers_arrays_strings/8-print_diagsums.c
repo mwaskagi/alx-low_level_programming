@@ -13,7 +13,7 @@ void print_diagsums(int *a, int size)
 {
 	int b, c;
 	int d = 0, e = 0;
-	
+
 	for (b = 0; b < size; b++)
 	{
 		for (c = 0; c < size; c++)
