@@ -11,7 +11,8 @@
 
 void print_diagsums(int *a, int size)
 {
-	int b, c, d = 0, e = 0;
+	int b, c;
+	int d = 0, e = 0;
 	
 	for (b = 0; b < size; b++)
 	{
@@ -19,7 +20,7 @@ void print_diagsums(int *a, int size)
 		{
 			if (b == c)
 				d = d + a[(size + 1) * a];
-			if (b + c == size -1)
+			if (b + c == size - 1)
 				e = e + a[(size - 1) * (b + 1)];
 		}
 	}
