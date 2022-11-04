@@ -32,6 +32,10 @@ int counter_check(char *s, int a)
 	{
 		return (counter_check(s + 1, a - 2));
 	}
+	else
+	{
+		return (0);
+	}
 }
 
 /**
