@@ -1,20 +1,31 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - claculates square root of a number
+ * _sqrt - helps in calcuation of square root
+ * @x: number
+ * @y: number
+ * Return: 0
+ */
+
+int _sqrt(int x, int y)
+{
+	if (y * y == x)
+	{
+		return (y);
+	}
+	else if (y * y > x)
+	{
+		return (-1);
+	}
+	return (_sqrt(x, y + 1);
+}
+/**
+ * _sqrt_recursion - calculates square root of a number
  * @n: number
  * Return: square root
  */
 
 int _sqrt_recursion(int n)
 {
-	int i = 0;
-	if((n) - (i * i) <= 0)
-	{
-		return (-1);
-	}
-	else
-	{
-		_sqrt_recursion(n);
-	}
+	return (_sqrt(n, 0));
 }
