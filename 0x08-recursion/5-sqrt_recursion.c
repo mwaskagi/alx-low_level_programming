@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _sqrt - helps in calcuation of square root
+ * sqrt_a - helps in calcuation of square root
  * @x: number
  * @y: number
  * Return: 0
  */
 
-int _sqrt(int x, int y)
+int sqrt_a(int x, int y)
 {
 	if (y * y == x)
 	{
@@ -17,7 +17,7 @@ int _sqrt(int x, int y)
 	{
 		return (-1);
 	}
-	return (_sqrt(x, y + 1);
+	return (sqrt_a(x, y + 1));
 }
 /**
  * _sqrt_recursion - calculates square root of a number
@@ -27,5 +27,5 @@ int _sqrt(int x, int y)
 
 int _sqrt_recursion(int n)
 {
-	return (_sqrt(n, 0));
+	return (sqrt_a(n, 0));
 }
