@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - print the multiple of two integers
@@ -8,11 +9,12 @@
  * Return: 0 if two integers are there 1 if none
  */
 
-int main(int argc, int argv[])
+int main(int argc, char *argv[])
 {
+
 	if (argc == 3)
 	{
-		printf("%d\n", (atoi(argv[1]) * atoi(argv[2])));
+		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 	}
 	else
 	{
