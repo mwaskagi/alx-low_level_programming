@@ -26,9 +26,9 @@ int _strlen(char *str)
 
 char *_strcopy(char *dest, char *src)
 {
-	int i = 0;
+	int i;
 
-	for (i; src[i]; i++)
+	for (i = 0; src[i]; i++)
 		dest[i] = src[i];
 
 	dest[i] = '\0';
@@ -44,7 +44,7 @@ char *_strcopy(char *dest, char *src)
  * Return: struct dog
  */
 
-dog *new_dog(char *name, float age, char *owner)
+dog_t *new_dog(char *name, float age, char *owner)
 {
 	dog_t *doggy;
 
