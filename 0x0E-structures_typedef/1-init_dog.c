@@ -5,7 +5,7 @@
  * init_dog - function fo rht dog
  * @d: pointer
  * @name: dog name
- * @float: age of dog
+ * @age: age of dog
  * @owner: dogs owner
  * Return: 0
  */
