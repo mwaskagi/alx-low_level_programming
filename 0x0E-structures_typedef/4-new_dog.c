@@ -44,7 +44,7 @@ char *_strcopy(char *dest, char *src)
  * Return: struct dog
  */
 
-dog_t *new_dog(char *name, float age, char *owner)
+dog_ *new_dog(char *name, float age, char *owner)
 {
 	dog_t *doggy;
 
