@@ -20,7 +20,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	if (add == NULL)
 		return (NULL);
 
-	add->m = n;
+	add->n = n;
 	add->next = NULL;
 
 	if (*head == NULL)
@@ -28,7 +28,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 		*head = add;
 		return (add);
 	}
-	pointer = *head
+	pointer = *head;
 		while (pointer->next)
 		{
 			pointer = pointer->next;
