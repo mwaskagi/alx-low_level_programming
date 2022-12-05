@@ -3,7 +3,7 @@
 #include <math.h>
 
 /**
- * clear_bit - Function that sets the value of bit to 
+ * clear_bit - Function that sets the value of bit to
  * 0 at given index
  * @n: number
  * @index: index
