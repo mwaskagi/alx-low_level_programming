@@ -2,12 +2,12 @@
 #include "main.h"
 
 /**
- * binary_to_unit - function converts a binary number to an unsigned int
+ * binary_to_uint - function converts a binary number to an unsigned int
  * @b: pointer
  * Return: converted number
  */
 
-unsigned int binary_to_unit(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	unsigned int a = 0;
 
