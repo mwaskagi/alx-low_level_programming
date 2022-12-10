@@ -15,17 +15,18 @@ int create_file(const char *filename, char *text_content)
 
 	if (filename == NULL)
 		return (-1);
-	if (text_content == NULL)
-		text_content = "";
-	fd = open(filename, O_RDWR | O_TRUNC | O_CREAT, 0600);
-	if (fd == -1)
-		return (-1);
-	while (text_content[i] != '\n')
+	if (text_content != NULL)
 	{
-		i++;
+		for (i = 0; text_content[i];)
+			i++;
 	}
+
+	fd = open(filename, O_RDWR | O_TRUNC | O_CREAT, 0600);
 	n_write = write(fd, text_content, i);
-	if (n_write == -1)
+
+	if (fd == -1 || n_write == -1)
 		return (-1);
+
+	close(fd);
 	return (1);
 }
