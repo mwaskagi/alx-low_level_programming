@@ -31,7 +31,7 @@ char *create_buffer(char *file)
  * @fd: file descriptor
  */
 
-void close_file (int fd)
+void close_file(int fd)
 {
 	int c;
 
@@ -46,7 +46,7 @@ void close_file (int fd)
 
 /**
  * main - function copies content of a file to another file
- * @argc: number of argument supplied 
+ * @argc: number of argument supplied
  * @argv: array pointer
  * Return: 0
  */
