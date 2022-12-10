@@ -17,7 +17,7 @@ int create_file(const char *filename, char *text_content)
 		return (-1);
 	if (text_content == NULL)
 		text_content = "";
-	fd = open(filename, o_RDWR | O_TRUNC | O_CREATE, 0600);
+	fd = open(filename, O_RDWR | O_TRUNC | O_CREAT, 0600);
 	if (fd == -1)
 		return (-1);
 	while (text_content[i] != '\n')
