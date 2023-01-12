@@ -1,4 +1,4 @@
-#incluce "lists.h"
+#include "lists.h"
 
 /**
  * print_dlistint - print all elements of list
@@ -8,14 +8,13 @@
 
 size_t print_dlistint(const dlistint_t *h)
 {
-	const dlistint_t *pointer = h;
 	size_t i = 0;
 
-	while (pointer)
+	while (h)
 	{
-		printf("%d\n", pointer->n);
-		pointer = pointer->next;
 		i++;
+		printf("%d\n", h->n);
+		h = h->next;
 	}
 	return (i);
 }
